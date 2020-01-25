@@ -1,0 +1,21 @@
+@import "../../assets/Fonts/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.css";
+
+#logo {
+  margin: 2px 35px 0px 35px;
+}
+
+.navbar-nav {
+  margin: 0px 40px 0px 10px;
+  margin-left: 10px;
+}
+
+.navbar-nav > li > a {
+  font-size: 18px;
+  color: #dc4348;
+  font-weight: 600;
+  margin-left: 14px;
+}
+
+.fa-bell-o {
+  transform: rotate(-25deg);
+}

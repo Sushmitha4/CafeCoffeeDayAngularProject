@@ -1,0 +1,73 @@
+.main1 {
+  height: 45%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.main2 {
+  height: 55%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.mainImage {
+  padding: 0px;
+}
+
+h1 {
+  color: #fff;
+  font-size: 40px;
+  line-height: 46px;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+}
+
+.mainImage4,
+.mainImage5 {
+  background: #fa7036;
+}
+
+.image4 {
+  width: 180px;
+  height: 75px;
+}
+
+.mainImage4Text {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 46px;
+}
+
+.mainImage5 > img {
+  width: 62%;
+  height: 80%;
+  margin-left: 70px;
+  margin-top: 60px;
+}
+
+.mainImage6 {
+  background: #75d9a0;
+}
+
+.mainImage6 > img {
+  width: 85%;
+  height: 76%;
+  margin: 24px 0px 0px 35px;
+}

@@ -1,0 +1,26 @@
+#slideItems {
+  height: 530px;
+  width: 100%;
+}
+
+#header {
+  height: 90px;
+  width: 100%;
+}
+
+#main {
+  height: 1000px;
+  width: 100%;
+}
+
+#story {
+  height: 440px;
+  width: 100%;
+  background: url("../../assets/Images/homeImage.jpg");
+  background-size: cover;
+}
+
+#footer {
+  height: 380px;
+  width: 100%;
+}

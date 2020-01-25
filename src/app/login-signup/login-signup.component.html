@@ -1,0 +1,51 @@
+<div class="container">
+  <div class="formItems">
+    <h2>Login</h2>
+    <h6>To create your profile</h6>
+    <form #form="ngForm" (ngSubmit)="login(form)">
+      <div class="form-group">
+        <input
+          ngModel
+          type="email"
+          name="email"
+          class="form-control"
+          required
+          placeholder="Email Id"
+        />
+      </div>
+      <div class="form-group">
+        <input
+          ngModel
+          type="password"
+          name="password"
+          class="form-control"
+          required
+          placeholder="Password"
+        />
+      </div>
+      <span class="forgotPassword">Forgot Password?</span>
+      <div class="form-group">
+        <button [disabled]="!form.valid" class="btn btn-block">Submit</button>
+      </div>
+
+      <div class="line">
+        <hr />
+        <span class="or">or</span>
+        <div class="rightLine"></div>
+      </div>
+      <div class="form-group">
+        <div class="loginFooter">
+          <span>Login With</span>
+        </div>
+        <div class="loginFooter">
+          <span>Don't have an account?</span>
+          <a routerLink="/signin">Sign Up</a>
+        </div>
+      </div>
+      <hr />
+      <div class="form-group">
+        <span>Download the mobile app today</span>
+      </div>
+    </form>
+  </div>
+</div>
